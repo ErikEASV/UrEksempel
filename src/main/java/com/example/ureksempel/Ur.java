@@ -40,7 +40,7 @@ public class Ur extends Application {
         scenegraf.getChildren().add(visTiden);
 
         Scene scene = new Scene(scenegraf, 600, 400);
-        vindue.setTitle("Stopur!");
+        vindue.setTitle("Ure!");
         vindue.setScene(scene);
         vindue.show();
     }

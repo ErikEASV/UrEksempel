@@ -1,6 +1,7 @@
 package com.example.ureksempel;
 
 import javafx.animation.Interpolator;
+import javafx.animation.ParallelTransition;
 import javafx.animation.PathTransition;
 import javafx.animation.Timeline;
 import javafx.scene.Group;
@@ -118,7 +119,7 @@ public class Viserur {
             /*Reflection r = new Reflection();
             r.setFraction(0.8);
             ur.setEffect(r);*/
-            
+
             scenegraf.getChildren().add(ur);
         }
     }
